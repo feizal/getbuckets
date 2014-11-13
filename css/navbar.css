@@ -75,3 +75,8 @@
     -moz-border-radius: 0;
     -o-border-radius: 0;
 }
+
+.bucket-text {
+	display: table-cell;
+    vertical-align: bottom;
+}

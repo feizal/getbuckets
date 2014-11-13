@@ -1,13 +1,15 @@
 body{
-	background: rgb(89,106,114); /* Old browsers */
-background: -moz-linear-gradient(top,  rgba(89,106,114,1) 0%, rgba(206,220,231,1) 45%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(89,106,114,1)), color-stop(45%,rgba(206,220,231,1))); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(top,  rgba(89,106,114,1) 0%,rgba(206,220,231,1) 45%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top,  rgba(89,106,114,1) 0%,rgba(206,220,231,1) 45%); /* Opera 11.10+ */
-background: -ms-linear-gradient(top,  rgba(89,106,114,1) 0%,rgba(206,220,231,1) 45%); /* IE10+ */
-background: linear-gradient(to bottom,  rgba(89,106,114,1) 0%,rgba(206,220,231,1) 45%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#596a72', endColorstr='#cedce7',GradientType=0 ); /* IE6-9 */
+	background: -webkit-linear-gradient(top, rgb(72, 87, 110) 0%, rgb(209, 212, 219) 20%, rgb(255, 255, 255) 36%, rgb(255, 255, 255) 100%);
+background: -o-linear-gradient(top, rgb(72, 87, 110) 0%, rgb(209, 212, 219) 20%, rgb(255, 255, 255) 36%, rgb(255, 255, 255) 100%);
+background: -ms-linear-gradient(top, rgb(72, 87, 110) 0%, rgb(209, 212, 219) 20%, rgb(255, 255, 255) 36%, rgb(255, 255, 255) 100%);
+background: -moz-linear-gradient(top, rgb(72, 87, 110) 0%, rgb(209, 212, 219) 20%, rgb(255, 255, 255) 36%, rgb(255, 255, 255) 100%);
+background: linear-gradient(to bottom, rgb(72, 87, 110) 0%, rgb(209, 212, 219) 20%, rgb(255, 255, 255) 36%, rgb(255, 255, 255) 100%);
+font-family: 'PT Sans', sans-serif;
+}
 
+@font-face {
+    font-family: myFirstFont;
+    src: url(assets/);
 }
 
 .header-top{
@@ -27,8 +29,18 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#596a72', end
 	text-align: center;
 }
 
-.media-heading{
-  position: relative;
-  top: 50%;
-  transform: translateY(50%);
+#navbarCollapse ul{
+	width: 100%;
+}
+
+.navbar-nav li{
+	width:25%;
+	text-align: center;
+	font-size: 2em;
+}
+
+.bucket-clickable{
+	width:20%;
+	margin-left: 10px;
+	margin-right:10px;
 }
