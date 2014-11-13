@@ -1,0 +1,34 @@
+body{
+	background: rgb(89,106,114); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(89,106,114,1) 0%, rgba(206,220,231,1) 45%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(89,106,114,1)), color-stop(45%,rgba(206,220,231,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(89,106,114,1) 0%,rgba(206,220,231,1) 45%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(89,106,114,1) 0%,rgba(206,220,231,1) 45%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(89,106,114,1) 0%,rgba(206,220,231,1) 45%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(89,106,114,1) 0%,rgba(206,220,231,1) 45%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#596a72', endColorstr='#cedce7',GradientType=0 ); /* IE6-9 */
+
+}
+
+.header-top{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#fb-login-button{
+	width: 200px;
+}
+
+.filler{
+	height: 30px;
+}
+
+.center{
+	text-align: center;
+}
+
+.media-heading{
+  position: relative;
+  top: 50%;
+  transform: translateY(50%);
+}

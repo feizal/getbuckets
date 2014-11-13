@@ -1,0 +1,13 @@
+#con .well {
+    height:400px;
+}
+
+#nav.affix {
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
+nav{
+	background-color: #334AB2;
+}
